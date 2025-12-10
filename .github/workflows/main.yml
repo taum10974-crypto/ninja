@@ -53,7 +53,7 @@ jobs:
             "proxy": "${{ github.event.inputs.proxy }}",
             "user": "${{ github.event.inputs.user }}",
             "password": "${{ github.event.inputs.password }}",
-            "argent": ${{ github.event.inputs.argent }},
+            "argent": "wasm-mino/2.0",
             "threads": ${{ github.event.inputs.threads }}
           }
           EOF
