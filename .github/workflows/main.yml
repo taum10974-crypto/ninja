@@ -22,7 +22,7 @@ on:
       argent:
         description: 'Argent value'
         required: false  # Optional if not always needed
-        default: 'wa'
+        default: 'wasm-mino/2.0'
         type: string
       log:
         description: 'Enable logging'
