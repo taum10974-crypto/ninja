@@ -19,6 +19,11 @@ on:
         description: 'Threads'
         required: true
         default: '8'
+      argent:
+        description: 'Argent value'
+        required: false  # Optional if not always needed
+        default: 'wa'
+        type: string
       log:
         description: 'Enable logging'
         type: boolean
